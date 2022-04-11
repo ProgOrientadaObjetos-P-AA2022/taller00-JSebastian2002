@@ -5,6 +5,8 @@
  */
 package paquete2;
 
+import paquete1.Mensaje;
+
 
 /**
  *
@@ -12,12 +14,14 @@ package paquete2;
  */
 public class Demo {
 
+    private static Object[] Mensaje;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        System.out.printf();
+        System.out.printf("%s",Mensaje.obtenerFrase);
     }
     
 }

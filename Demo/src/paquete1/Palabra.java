@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete3;
-
-import paquete5.Dato;
+package paquete1;
 
 /**
  *
- * @author reroes
+ * @author SALA I
  */
-public class Valor {
+class Palabra {
     
-    public static int obtenerHabitantes(){
-        return Dato.obtenerNumeroHombres() + Dato.obtenerNumeroMujeres();
-    }
 }
